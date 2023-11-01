@@ -9,5 +9,28 @@
 <body>
     <h1>THIS IS THE WEBPAGE FOR AVVALORANDO TESSERA</h1>
     <h3>Work in progress</h3>
+
+    <div class="container">
+        <h1>Membership Card Registration</h1>
+        <form id="membershipForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="membershipDate">Date of Membership:</label>
+                <input type="date" id="membershipDate" name="membershipDate" required>
+            </div>
+            <div class="form-group">
+                <label for="imageUpload">Upload Picture:</label>
+                <input type="file" id="imageUpload" name="imageUpload" accept="image/*" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
